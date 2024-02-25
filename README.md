@@ -1,33 +1,102 @@
-# Responsive Web Design Projects - Build a Technical Documentation Page
-> freeCodeCamp - Certificação Treinamento Web Design Responsivo | Projeto 04 - Construa uma página de documentação técnica.
+# PÁGINA DOCUMENTAÇÃO TÉCNICA
 
-## Objective
-Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/NdrKKL.
+## Sobre o Projeto
 
-Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
+O projeto "Construa uma Página de Documentação Técnica" faz parte dos desafios propostos pelo Free Code Camp no âmbito da Certificação de Treinamento em Web Design Responsivo e tem como objetivo a criação de uma página de documentação técnica voltada para a linguagem de programação Python abrangendo conceitos fundamentais até tópicos mais avançados como classes, exceções e manipulação de arquivos.
 
-You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+## Objetivo:
+O objetivo deste projeto é desenvolver um aplicativo no CodePen.io que possua funcionalidades semelhantes ao seguinte exemplo: [https://codepen.io/freeCodeCamp/full/NdrKKL](https://codepen.io/freeCodeCamp/full/NdrKKL).
 
-- **User Story #1**: I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
-- **User Story #2**: Within the #main-doc element, I can see several section elements, each with a class of main-section. There should be a minimum of 5.
-- **User Story #3**: The first element within each .main-section should be a header element which contains text that describes the topic of that section.
-- **User Story #4**: Each section element with the class of main-section should also have an id that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding id="JavaScript_and_Java").
-- **User Story #5**: The .main-section elements should contain at least 10 p elements total (not each).
-- **User Story #6**: The .main-section elements should contain at least 5 code elements total (not each).
-- **User Story #7**: The .main-section elements should contain at least 5 li items total (not each).
-- **User Story #8**: I can see a nav element with a corresponding id="navbar".
-- **User Story #9**: The navbar element should contain one header element which contains text that describes the topic of the technical documentation.
-- **User Story #10**: Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section.
-- **User Story #11**: The header element in the navbar must come before any link (a) elements in the navbar.
-- **User Story #12**: Each element with the class of nav-link should contain text that corresponds to the header text within each section (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world").
-- **User Story #13**: When I click on a navbar element, the page should navigate to the corresponding section of the main-doc element (e.g. If I click on a nav-link element that contains the text "Hello world", the page navigates to a section element that has that id and contains the corresponding header.
-- **User Story #14**: On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user.
-- **User Story #15**: My Technical Documentation page should use at least one media query.
+Este projeto visa atender às histórias de usuários listadas abaixo e garantir que todos os testes estejam passando. Além disso, é encorajado que seja adicionado um estilo pessoal ao projeto.
 
-You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js.
+Para a implementação, são permitidas as seguintes tecnologias: HTML, JavaScript e CSS. Recomenda-se o uso de CSS puro, visto que é o enfoque das lições até o momento e permite praticar habilidades essenciais. Embora seja permitido o uso de Bootstrap ou SASS, é desencorajado o uso de tecnologias adicionais como jQuery, React, Angular ou Vue. O uso destas tecnologias é por conta e risco do desenvolvedor. Outros projetos proporcionarão oportunidades para explorar pilhas de tecnologia diferentes, como React. 
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Relatórios de problemas que adotem a pilha de tecnologia sugerida para este projeto serão aceitos e esforços serão feitos para corrigi-los.
 
-------------
-A Pen created on CodePen.io.
-Original URL: [https://codepen.io/joaogdcarvalho/pen/jOVVNYz](https://codepen.io/joaogdcarvalho/pen/jOVVNYz).
+## História do usuário
+
+1. Posso ver um elemento principal com um id correspondente a "main-doc", que contém o conteúdo principal da página (documentação técnica).
+2. No elemento #main-doc, posso ver vários elementos de seção, cada um com uma classe de main-section. Deve haver no mínimo 5.
+3. O primeiro elemento dentro de cada .main-section deve ser um elemento de cabeçalho que contém texto que descreve o tópico daquela seção.
+4. Cada elemento de seção com a classe main-section também deve ter um id que corresponda ao texto de cada cabeçalho contido dentro dele. Quaisquer espaços devem ser substituídos por sublinhados (por exemplo, A seção que contém o cabeçalho "JavaScript and Java" deve ter um id correspondente a "JavaScript_and_Java").
+5. Os elementos .main-section devem conter pelo menos 10 elementos p no total (não cada um).
+6. Os elementos .main-section devem conter pelo menos 5 elementos de código no total (não cada um).
+7. Os elementos .main-section devem conter pelo menos 5 itens de li no total (não cada um).
+8. Posso ver um elemento de navegação com um id correspondente a "navbar".
+9. O elemento navbar deve conter um elemento de cabeçalho que contém texto que descreve o tópico da documentação técnica.
+10. Além disso, o navbar deve conter elementos de link (a) com a classe de nav-link. Deve haver um para cada elemento com a classe main-section.
+11. O elemento de cabeçalho no navbar deve vir antes de qualquer elemento de link (a) no navbar.
+12. Cada elemento com a classe nav-link deve conter texto que corresponda ao texto do cabeçalho dentro de cada seção (por exemplo, se você tiver uma seção/cabeçalho "Hello world", seu navbar deve ter um elemento que contenha o texto "Hello world").
+13. Quando clico em um elemento navbar, a página deve navegar para a seção correspondente do elemento main-doc (por exemplo, se eu clicar em um elemento nav-link que contém o texto "Hello world", a página navega para um elemento de seção que possui esse id e contém o cabeçalho correspondente).
+14. Em dispositivos de tamanho regular (laptops, desktops), o elemento com id "navbar" deve ser mostrado no lado esquerdo da tela e deve estar sempre visível para o usuário.
+15. Minha página de documentação técnica deve usar pelo menos uma consulta de mídia.
+
+## Tecnologias Utilizadas
+
+O projeto utiliza as seguintes tecnologias:
+
+- HTML5: Para estruturar o conteúdo da página da web.
+- CSS3: Para estilização e design de layout.
+- JavaScript: Para adicionar interatividade e navegação suave.
+
+## Estrutura do Projeto
+
+A estrutura do projeto é organizada da seguinte forma:
+
+```
+pagina-documentacao-tecnica/
+|-- dist/
+|   |-- index.html
+|   |-- style.css
+|   |-- script.js
+|-- src/
+|   |-- index.html
+|   |-- style.css
+|   |-- script.js
+|-- README.md
+|-- LICENSE.txt
+```
+
+## Principais Diretórios e Arquivos
+
+- **dist/. Contém os arquivos finais do projeto, prontos para implantação.
+- **src/. Contém os arquivos de código-fonte do projeto.
+
+## Funcionalidades
+
+A página de documentação técnica oferece informações detalhadas sobre os seguintes tópicos:
+
+- Introdução
+- Variáveis
+- Loops
+- Funções
+- Estruturas de Dados
+- Classes
+- Exceções
+- Módulos
+- Manipulação de Arquivos
+- Bibliotecas
+
+## Como Executar o Projeto
+
+Siga os passos abaixo para executar o projeto em sua máquina local:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/example/pagina-documentacao-tecnica.git
+   ```
+
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd pagina-documentacao-tecnica
+   ```
+
+3. Abra o arquivo `index.html` em seu navegador para visualizar a página de documentação técnica.
+
+## Diretrizes de Contribuição
+
+Contribuições para este projeto são bem-vindas. Sinta-se à vontade para abrir pull requests, relatar bugs ou sugerir novos recursos.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT.
