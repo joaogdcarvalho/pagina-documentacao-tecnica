@@ -1,3 +1,5 @@
+const projectName = "pagina-documentacao-tecnica";
+
 document.addEventListener('DOMContentLoaded', function () {
   const navbarLinks = document.querySelectorAll('.nav-link');
 
