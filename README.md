@@ -2,10 +2,10 @@
 
 ## Sobre o Projeto
 
-O projeto "Construa uma Página de Documentação Técnica" faz parte dos desafios propostos pelo Free Code Camp no âmbito da Certificação de Treinamento em Web Design Responsivo e tem como objetivo a criação de uma página de documentação técnica voltada para a linguagem de programação Python abrangendo conceitos fundamentais até tópicos mais avançados como classes, exceções e manipulação de arquivos.
+O projeto "Página Documentação Técnica" faz parte dos desafios propostos pela [freeCodeCamp](https://www.freecodecamp.org) no âmbito da Certificação de Treinamento em Web Design Responsivo e tem como foco a criação de uma página de documentação técnica voltada para a linguagem de programação Python abrangendo conceitos fundamentais até tópicos mais avançados como classes, exceções e manipulação de arquivos.
 
 ## Objetivo:
-O objetivo deste projeto é desenvolver um aplicativo no CodePen.io que possua funcionalidades semelhantes ao seguinte exemplo: [https://codepen.io/freeCodeCamp/full/NdrKKL](https://codepen.io/freeCodeCamp/full/NdrKKL).
+Desenvolver um aplicativo no [CodePen](https://codepen.io) que possua funcionalidades semelhantes ao seguinte exemplo: [https://codepen.io/freeCodeCamp/full/NdrKKL](https://codepen.io/freeCodeCamp/full/NdrKKL).
 
 Este projeto visa atender às histórias de usuários listadas abaixo e garantir que todos os testes estejam passando. Além disso, é encorajado que seja adicionado um estilo pessoal ao projeto.
 
